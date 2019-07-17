@@ -2,7 +2,7 @@
 
 
 ##### `Disclaimer `
-This is my path of learning. Each statement here is near approximation to real ones. As learning directly the real-ones always involves too much depth and that i get bored too easily.
+This is my path of learning. Each statement here is near approximation to real ones. As learning directly the real-ones always involves too much depth and i get bored too easily.
 
 I am going by thought that, we need that much knowledge which is neccessary to move to next step and by the time we reach our target through small corrections we will attain most of needed knowledge.
 

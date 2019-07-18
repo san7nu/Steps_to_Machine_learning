@@ -2,9 +2,9 @@
 
 
 ##### `Disclaimer `
-This is my path of learning. Each statement here is near approximation to real ones. As learning directly the real-ones always involves too much depth and i get bored too easily.
+This is my path of learning. 
 
-I am going by thought that, we need that much knowledge which is neccessary to move to next step and by the time we reach our target through small corrections we will attain most of needed knowledge.
+Each statement here is near approximation to real ones. As learning directly the real-ones always involves too much depth and i get bored too easily. So i am going by thought that, we need that much knowledge which is neccessary to move to next step and by the time we reach our target through small corrections we will attain most of needed knowledge.
 
 ---
 ### Table of Contents  
@@ -17,6 +17,26 @@ I am going by thought that, we need that much knowledge which is neccessary to m
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Unsupervised](#unsupervised)<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Discriminative](#disc)<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Generative](#genr)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bayesian Networks](#bayes)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Time-series analysis](#times)<br />
+[ML Algos](#algos)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Nearest Neighbor, KNN](#knn)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Linear regression](#lireg)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Logistic regression](#loreg)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SVM(Support Vector Machine)](#svm)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Random Forest](#randf)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Naive Bayes](#nbayes)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dimentionality reduction(PCA, LDA)](#pca)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Neural Networks](#nn)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Convolutional Neural Networks](#cnn)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Recurrent Neural Networks](#rnn)<br />
+[Libraries](#lib)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Keras](#keras)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Tensorflow](#tf)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Torch](#torch)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Theano](#theano)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Caffe](#caffe)<br />
+[Recent research](#rsrch)<br />
 
 ----
 <a name="intro"/>
@@ -60,17 +80,44 @@ In further simple words, if i show images to code then it itself finds pattern i
 <a name="supervised"/>
 
 ##### `Supervised Learning`
-I show code the output initially later i will ask what is the output. For example, i will show hell lot of dog and cat pictures and tell which is dog and cat then ask our code at the end to identify a dog or cat based on new picture i show.
+I show to code some inputs and outputs initially(this phase is called training) and later(this phase is called testing) i will ask what are the outputs for given inputs.<br />
+For example, i will show hell lot of dog and cat pictures and tell which is dog and cat then ask our code at the end to identify a dog or cat based on new picture i show.
 
-Classic examples are 
 <a name="unsupervised"/>
 
 ##### `Unsupervised Learning`
+I don't tell anything about output, i will give lot of data and i expect code to figure out some relationships or segregations in data.<br />
+For example, i throw lot of dogs and cat pictures, i expect code to find `segregation` of what is dog and cat.<br />
 
+It differs from supervised learning in a way that we don't tell what is dog and cat, we expect code to somehow figure out that there are two different objects.
 <a name="disc"/>
 
 ##### `Discriminative Learning`
-
+Estimate p(y|x) probability of y given x.
 <a name="genr"/>
 
 ##### `Generative Learning`
+Estimate p(x,y) or p(x|y).p(y) combined probability of x and y
+<a name="bayes"/>
+
+##### `Bayesian network`
+
+* Bayes Theorem
+* Casual BN
+* Pystan
+<a name="times"/>
+
+##### `Time-series analysis`
+* AR(Auto-regression)
+* MA(Moving average)
+* ARMA(AR+MA)
+* ARIMA(AR+ Integrated +MA)
+* SARIMA(Seasonal ARIMA)
+* Exponential smoothening
+* Holt-winters
+* VAR(Vector AR)
+* Auto-ARIMA
+* Prophet
+<a name="algos"/>
+
+### ML Algos

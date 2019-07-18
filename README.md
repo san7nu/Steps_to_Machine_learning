@@ -76,7 +76,7 @@ In further simple words, if i show images to code then it itself finds pattern i
 ---
 <a name="types"/>
 
-### `Types of Learning`
+### Types of Learning
 <a name="supervised"/>
 
 ##### `Supervised Learning`

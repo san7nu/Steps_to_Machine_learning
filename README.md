@@ -42,7 +42,7 @@ Each statement here is near approximation to real ones. As learning directly the
 <a name="intro"/>
 
 ### Intro
-This intro can be [skipped](#types), but can add directional sense to the overall path/step.  
+This intro can be [skipped](#types), but show little patience and read it can definetely add directional sense to the overall path/step.  
 
 Machine learning world assumes that there are only two problems in this whole universe
 1. Prediction/Regression problem: Predict something based on past
@@ -53,12 +53,12 @@ Every problem can be directly or indirectly made into these two problems.
 <a name="endgoal"/>
 
 ##### `End-goal of Artificial Intelligence(AI)`
-To develop techniques which enable machine to mimic human behavior.
+To create "something" which can make machines mimic human behavior.
 
 <a name="scope"/>
 
 ##### `Scope`
-If Machine can do below then we say its kind-of mimicing human:
+What does it mean by mimicing human behaviour ?.. If machine can:
 
 Reason, Represent knowledge, Plan, Learn, Process natural language(talk & listen), Perceive, Motion and Manipulation, Extra(Social & general) intelligence
 
@@ -72,6 +72,35 @@ Idea is that there are generic algorithms that can tell something interesting ab
 
 In simple words, if we show data to code then it itself finds pattern inside the data(depending on data).
 In further simple words, if i show images to code then it itself finds pattern in them and recognizes then dog, cat,....(too ambitious i know :)
+
+Let take an example in which we have two inputs <br />
+Example1:<br />
+Input1 = 1,2,3,4,5,6,7,8,9,10,11........100<br />
+Input2 = 0,1,0,1,0,1,0,1,0,1,0...........1
+
+and our task is to write some code that takes these two inputs and in future if someone gives it Input1(lets say 2312), then it has to find value of Input2(to be 1).
+
+Yes its even-odd program. 
+
+Example2:<br />
+Input1 = 1,2,3,4,5,6,7,8,9,10,11........,99,100<br />
+Input2 = 0,0,1,0,0,1,0,0,1,0,0...........1,0
+
+and our task is to write some code that takes these two inputs and in future if someone gives it Input1(lets say 999), then it has to find value of Input2(to be 1).
+
+Yes its 3-divisbles.
+
+Example3:<br />
+Input1 = 1,2,3,4,5,6,7,8,9,10,11........,99,100<br />
+Input2 = 0,0,0,0,1,0,0,0,0,1,0...........0,1
+
+and our task is to write some code that takes these two inputs and in future if someone gives it Input1(lets say 9850), then it has to find value of Input2(to be 1).
+
+Yes its 5-divisbles.
+
+Now question is, can we write a generic code which can work for either of above example(1,2,3) and can handle anything of such kind ?<br />
+May be you figured out something like this, you track the 1st True(1) in Input2 and find its divisibles.<br /> 
+In this you have given your code `Intelligence` to learn itself which number to divide. This is kind-of basic idea of AI, where we find some algo which has intelligence inside itself rather than we solving each task with specific logic, we try solve all the scenarios in the world with single logic (again this too optimistic target, in reality we use small bunch of algos to solve all problems)
 
 ---
 <a name="types"/>
